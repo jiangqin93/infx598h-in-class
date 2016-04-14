@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0; /*stretch everything, get rid of the blank space in the edge*/
+    
+}
+
+h1, h2{
+    font-family: 'Open sans', sans-serif;
+}
+
+.tag-line{ /*class style definition*/
+    font-variant: small-caps; /*capital letters*/
+}
+
+.sec1{
+    background-color: #999;
+}
+
+.sec2{
+    background-color: darkseagreen;
+}
+
+header, .sec1, .sec2 {
+    padding: 1em; /*em: current font size */
+    margin: 1em;
+}
+
+a{
+    text-decoration: none; /*get rid of the underline in a element*/
+}
+
+svg{
+    height: 2em;
+    fill: beige;
+    stroke: cadetblue;
+}
+
+
+

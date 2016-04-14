@@ -3,10 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-    <header>
+<body> <!--container: padding, limited width-->
+    <header class="container page-header">
         <h1>Boostrap Example</h1>
+        <p>
+            <a class="btn btn-primary" href="http://www.google.com">Search</a>
+        </p>
     </header>
+    <main class="container"> <!--container: stretch-->
+        <p class="alert alert-danger">Danger Will Robinson</p>
+        
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <h2>Hello First Column</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta nam, voluptatum assumenda a maiores asperiores natus dolore possimus aut animi voluptatibus modi fugiat. Aperiam iste suscipit, ipsum in quos.</p>
+
+            </div>
+            <div class="col-lg-3 col-md-6"> <!--How wide the div will be-->
+                <h2>Hello Second Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta nam, voluptatum assumenda a maiores asperiores natus dolore possimus aut animi voluptatibus modi fugiat. Aperiam iste suscipit, ipsum in quos.</p>
+           </div>
+           <div class="col-lg-3 col-md-6"> <!--How wide the div will be-->
+                <h2>Hello Second Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta nam, voluptatum assumenda a maiores asperiores natus dolore possimus aut animi voluptatibus modi fugiat. Aperiam iste suscipit, ipsum in quos.</p>
+           </div>
+           <div class="col-lg-3 col-md-6"> <!--How wide the div will be-->
+                <h2>Hello Second Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta nam, voluptatum assumenda a maiores asperiores natus dolore possimus aut animi voluptatibus modi fugiat. Aperiam iste suscipit, ipsum in quos.</p>
+           </div>
+           
+        </div>
+        
+    </main>
 </body>
 </html>

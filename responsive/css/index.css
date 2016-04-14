@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(../img/background-lg.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(../img/background-sm.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,3 +21,25 @@ main {
     padding: 1em;
 }
 
+.tag-line{
+    display: none;
+}
+
+@media(min-width: 768px){
+    /*will only apply when the screen is larger than 768px--phone, tablet*/
+    body{
+        font-size: 25px;
+    }
+    header{
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(../img/background-lg.jpg);
+    }
+    .tag-line{
+        display: block;
+    }
+}
+
+@media(min-width:1200px){
+    body{
+        font-size: 30px;
+    }
+}
