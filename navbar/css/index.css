@@ -1,0 +1,44 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+nav {
+    background-color: #F50;
+}
+
+nav ul {
+    padding-left: 0;
+}  /*get rid of the bullets*/
+
+nav li {
+    display:  inline-block;
+    /*inline-block: inline elements: we can still
+    add paddings around them*/
+    list-style-type:  lower-greek;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none; /*remove the underline*/
+    color:#FFF;
+    transition: all 500ms;
+    /*whenever some changes happend using a psedo selector, 
+    it takes time to change
+    all the changes will be animated*/
+}
+
+/*psedo-selector*/
+nav a:hover, 
+nav a:focus {
+    background-color: #D50;
+    /*border-width: 5px;
+    border-color: #F00;*/
+    /*color: #000;*/
+    
+}
+
+/*group selector*/
+/*nav a:focus {
+    background-color: #F99;
+}*/
