@@ -121,3 +121,24 @@ m.yellow = "#FF0";
 console.log(m.yellow);
 
 console.log(areaCircle(50));
+
+
+function onClickMe() {
+    // alert("You clicked me!");
+    // btnClickMe.textContent = "You clicked me!";
+    // this.textContect = "U clicked me";
+    var p = document.querySelector(".hide-show-text");
+    
+    if(p.style.display != "none") {
+        p.style.display = "none";
+    }
+    else
+        p.style.display = "block";
+}
+
+
+var btnClickMe = document.querySelector(".btn-click-me");
+btnClickMe.addEventListener('click', onClickMe);
+
+//send a javascript object that represents that button
+
