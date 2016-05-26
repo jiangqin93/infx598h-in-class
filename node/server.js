@@ -1,5 +1,3 @@
-
-
 "use strict";
 
 const express = require("express");
@@ -19,7 +17,11 @@ movies.forEach(function(movie) {
     moviesForGenre.push(movie);
 });
 
-app.get("/", function(req, res) {
+app.use(express.static(__dirname + "/static"));
+//load the index.html & css file
+//only look for files under the static files
+
+app.get("/hello", function(req, res) {
     res.send("Hello World!"); 
 });
 
@@ -50,3 +52,5 @@ app.get("/movies/genres/:genre", function(req, res) {
 app.listen(port, function() {
     console.log("Server is listening..."); 
 });
+
+
