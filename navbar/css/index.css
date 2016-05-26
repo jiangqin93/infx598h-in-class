@@ -35,6 +35,8 @@ nav a:focus {
     /*border-width: 5px;
     border-color: #F00;*/
     /*color: #000;*/
+    outline:#F00 solid 5px;
+    font-size:150%;
     
 }
 

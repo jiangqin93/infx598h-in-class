@@ -1,0 +1,11 @@
+th {
+    cursor:pointer;
+}
+/*改变鼠标形状为手指*/
+
+
+tr > td:last-child{
+    text-align: right;
+}
+
+@media
